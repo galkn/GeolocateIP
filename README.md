@@ -29,6 +29,8 @@ The available data is:
 - country_code
 - ip
 
+When you're in *development* mode, you're going to get _Santa Barbara, CA, USA_ by default.
+
 ## Some love
 
 This gem was made possible by [freegeoip.net](http://freegeoip.net/static/index.html).
