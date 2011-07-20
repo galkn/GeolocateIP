@@ -17,10 +17,13 @@ Jeweler::Tasks.new do |gem|
   gem.name = "GeolocateIP"
   gem.homepage = "http://github.com/get/GeolocateIP"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Get users' entire location information (using IP address)}
+  gem.description = %Q{Get users' entire location information (using IP address)}
   gem.email = "korengb@gmail.com"
   gem.authors = ["get"]
+  gem.files = Dir.glob('lib/**/*.rb')
+  #gem.add_dependency 'open-uri'
+  gem.add_dependency 'json'
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
