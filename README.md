@@ -29,7 +29,7 @@ The available data is:
 - country_code
 - ip
 
-When you're in *development* mode, you're going to get _Santa Barbara, CA, USA_ by default.
+When you're in **development** mode, you're going to get _Santa Barbara, CA, USA_ by default.
 
 ## Some love
 
